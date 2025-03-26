@@ -1,9 +1,5 @@
 import os 
-filepath = os.path.join(r"C:\Users\aryan\OneDrive\Documents\phython project\supermarket-sales\supermarket_sales - Sheet1.csv")
-
-# print(os.path.exists("C:/Users/aryan/OneDrive/Documents/phython project/supermarket-sales/supermarket_sales - Sheet1.csv"))
-
-# filepath=os.path.join("C:\Users\aryan\OneDrive\Documents\phython project\supermarket-sales\supermarket_sales - Sheet1.csv")
+filepath = os.path.join("phython project\supermarket-sales\supermarket_sales - Sheet1.csv")
 import pandas as pd 
 df=pd.read_csv(filepath)
 
